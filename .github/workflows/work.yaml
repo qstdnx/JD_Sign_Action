@@ -35,6 +35,7 @@ jobs:
               
             - name: Run Script
               run: node jd_sign.js
+              1
                 
             - name: Upload result file
               uses: actions/upload-artifact@master
