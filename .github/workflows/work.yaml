@@ -41,6 +41,7 @@ jobs:
               if: env.UPLOAD_BESULT_DIR == 'true'
               with:
                 name: result
+             
                 path: ./*.txt
 
 
